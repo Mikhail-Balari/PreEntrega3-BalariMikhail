@@ -1,0 +1,22 @@
+# Ignorar archivos y directorios generados automáticamente
+__pycache__/
+*.pyc
+
+# Ignorar archivos específicos
+db.sqlite3
+
+# Ignorar el entorno virtual
+myenv/
+
+# Ignorar archivos de configuración local
+.env
+
+# Ignorar archivos de registro y archivos temporales
+*.log
+*.tmp
+
+# Ignorar archivos y directorios específicos en la carpeta de medios 
+/media/*
+
+# Ignorar archivos de caché
+.cache/
